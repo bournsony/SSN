@@ -22,13 +22,13 @@ $("#category .owl-carousel").owlCarousel({
 $("#brand .owl-carousel").owlCarousel({
     loop: true,
     nav: false,
-    dots: true,
+    dots: false,
     responsive : {
         0: {
             items: 2.5
         },
         600: {
-            items: 5.5
+            items: 10.5
         }
     }
 });
