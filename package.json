@@ -1,0 +1,12 @@
+{
+  "name": "ssn-shop",
+  "version": "1.0.0",
+  "description": "SHOP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
+  },
+  "author": "Sophannich NHOEL",
+  "license": "ISC"
+}

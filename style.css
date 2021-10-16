@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Raleway&family=Rubik&family=Moul&family=Siemreap&display=swap");
+/*         Sass Template       */
+body {
+  background: #efefef;
+}
+
+/*    Typography Classes */
+.font-baloo {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", Baloo Tamma 2;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-siemreap {
+  font-family: "Siemreap", Rubik;
+}
+
+.font-moul {
+  font-family: "Moul", Rubik;
+}
+
+.font-size-8 {
+  font-size: 8px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+/*  Color Template */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-orange-bg {
+  background: #E56701;
+}
+
+.color-black-bg {
+  background: black;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+.color-red-bg {
+  background: red;
+}
+
+.color-space-gray-bg {
+  background: #4B4B4C;
+}
+
+/*  Special Price Template */
+#product .grid .grid-item {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+#product .grid .border {
+  border-radius: 10px;
+}
+#product .grid .text-center h6 {
+  display: block;
+}
+#product .grid .width-items {
+  width: 155px;
+}
+#product .btn {
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+#product .bg-card {
+  background: white;
+}
+#product .logo-brand {
+  width: 120px;
+}
+
+#banner-ads .container img {
+  margin-top: 1rem;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-top {
+  width: 100%;
+  height: 90px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.header-item {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 15px;
+  display: flex;
+}
+
+.head {
+  flex-grow: 1;
+  min-width: 50px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.item {
+  flex-grow: 1;
+  min-width: 100%;
+}
+
+/*    input search-box*/
+.search-box {
+  background: #efefef;
+  width: 300px;
+  height: 35px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.search-box img {
+  width: 18px;
+}
+
+.search-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  padding: 5px;
+  outline: none;
+  border: 0;
+}
+
+.cart-show {
+  padding-top: 5px;
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.color-item {
+  color: #F58C52;
+}
+
+.logo {
+  width: 80px;
+}
+
+.btn-category {
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+  text-align: center;
+  width: 85px;
+}
+
+.btn-category:hover {
+  text-decoration: none;
+  background-color: #009578;
+  color: white;
+}
+
+body {
+  margin: 0 0 55px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  overflow-x: auto;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #444444;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: #009578;
+}
+
+.nav__link--active {
+  color: #009578;
+}
+
+.nav__icon {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
